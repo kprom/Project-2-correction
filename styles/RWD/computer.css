@@ -1,0 +1,28 @@
+@media screen and (min-width: 1441px) {
+  .container {
+    width: 1320px;
+    margin: 0 auto;
+  }
+
+  .company-offer-section .boxes div {
+    width: 300px;
+    height: 300px;
+  }
+
+  .header .offer-button {
+    transition: 1s;
+  }
+
+  .header .offer-button:hover {
+    background-color: white;
+    color: black;
+  }
+
+  .company-offer-section .boxes div {
+    transition: 0.5s;
+  }
+
+  .boxes div:hover {
+    transform: scale(1.05);
+  }
+}

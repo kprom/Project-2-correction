@@ -1,0 +1,41 @@
+@media screen and (min-width: 1025px) {
+  .container {
+    width: 960px;
+    margin: 0 auto;
+  }
+
+  .header {
+    height: calc(100vh - 50px);
+  }
+
+  .experts-section .expert {
+    flex-direction: row;
+  }
+
+  .expert:nth-of-type(even) {
+    flex-direction: row-reverse;
+  }
+
+  .reversed {
+    text-align: right;
+  }
+
+  .company-offer-section .offer-section-heading {
+    font-size: 36px;
+  }
+
+  .company-offer-section .container .boxes {
+    width: 100%;
+    flex-wrap: wrap;
+    gap: 60px;
+  }
+
+  .footer {
+    height: 70px;
+  }
+
+  .footer .container {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
